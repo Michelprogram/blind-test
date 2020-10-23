@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blind Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/Principal.css">
+  </head>
+  <body>
+    <form id="formulaire">
+    <h1>Blind Test</h1>
+    <div class="Principal">
+      <div class="Container">
+        <div class="slot">
+          <span class="Texte">American</span>
+          <input id="C0" name="checkbox_0" type="checkbox" >
+        </div>
+        <div class="slot">
+          <span class="Texte">Français</span>
+          <input id="C1" name="checkbox_1" type="checkbox" >
+        </div>
+        <div class="slot">
+          <span class="Texte"> Classique</span>
+          <input id="C2" name="checkbox_2" type="checkbox" >
+        </div>
+      </div>
+      <div class="Bottom">
+        <div class="Bottom_Left">
+          <input id="slider" name="slider" type="range" min="1" max="50" value="10" >
+        </div>
+        <div class="Bottom_Mid">
+          Nombre de son : <span id="Nb_son">10</span>
+        </div>
+        <div class="Bottom_Right">
+            <button type="submit" name="button" >Play</button>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+	<div>
+          <a href="https://genius.com/" target="_blank"><img src="../../image/BlindTest/Genius.png" title="Cover from genius"></a>
+        </div>
+      <div >
+        <a href="https://soundcloud.com" target="_blank"><img src="../../image/BlindTest/soundcloud.png" title="Song from soundcloud"></a>
+      </div>
+      <div id="Twitter">
+        <a href="https://twitter.com" target="_blank"><img src="../../image/BlindTest/twitter.png" title="C'est nous wesh !"></a>
+      <div id="Text_twitter">
+        <a class="Link_profile" href="https://twitter.com/loutre_verte">@Loutre_Verte </a><br>
+        <a class="Link_profile" href="https://twitter.com/monsieurdu0000">@monsieurdu0000</a>
+      </div>
+	</div>
+    </footer>
+  </form>
+    <div id="Overlay">
+      <div id="Pop_up">
+        <h3>Warning</h3>
+        <span id="Texte_Pop_up"></span>
+          <button type="button" onclick="Close()"name="button">Close</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="text/javascript" src="script.js"></script>
+

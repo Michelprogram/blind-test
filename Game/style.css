@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+iframe
+{
+  width :0px;
+  height :0px;
+}
+#Container_Cover
+{
+ width:20%;
+ height:30%;
+ /*border:2px black solid;*/
+ margin-top:-35%;
+ margin-left:65%;
+}
+#Image_Cover
+{
+  opacity:0;
+  border-radius:5px;
+  transition:2s;
+}
+#Reponse
+{
+  /*border:2px black solid;*/
+  width:40%;
+  height:250px;
+  font-size:30px;
+  font-family:'Source Serif Pro';
+  margin-left:5%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+
+}
+#Reponse_auteur
+{
+}
+#Reponse_date
+{
+}
+#Reponse_nom
+{
+}
+#Cover
+{
+  margin-top:2%;
+  margin-left:20%;
+}
+#Reponse_input
+{
+  display:flex;
+  align-items:center;
+  /*border:2px black solid;*/
+  height:20%;
+  margin-left:5%;
+}
+#Text_input
+{
+  border: 1px solid black;
+  border-radius:5px;
+  outline:none;
+  width:60%;
+  height:50%;
+  background-color:white;
+  font-size:35px;
+  font-family:'Noto Sans TC';
+  transition:.2s;
+}
+
+#Turn_text
+{
+  font-size:30px;
+  font-family:'Source Serif Pro';
+  margin-left:5%;
+}
+#Bottom_Button
+{
+  /*border:2px black solid;*/
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:85%;
+  height:25%;
+  margin-left:5%;
+}
+.Two_button
+{
+  background-color:#5580e9;
+  border:#5580e9;
+  height:40%;
+  width:25%;
+  font-size:25px;
+  font-family:'Noto Sans TC';
+  font-style:oblique;
+  border-radius:10px;
+  outline:none;
+}
+
+#Volume_part
+{
+  /*border:2px solid black;*/
+  display:flex;
+  align-items:center;
+}
+#image_Volume
+{
+  width:30px;
+  height:30px;
+}
+#slider
+{
+  -webkit-appearance:none;
+  outline: none;
+  background-color: #ADADAD;
+  border-radius: 10px;
+  margin-left:5%;
+  width:0%;
+  transition:.8s;
+}
+#slider::-webkit-slider-thumb
+{
+  -webkit-appearance:none;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: black;
+  transition:.3s;
+}
+#Volume_part:hover #slider
+{
+  width:90%;
+}
+#Volume_part:hover #slider::-webkit-slider-thumb
+{
+  width: 20px;
+  height:20px;
+}
+

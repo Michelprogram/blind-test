@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap%27');
+body
+{
+  font-family: 'Source Serif Pro', serif;
+  background-color: #425B8A;
+
+}
+html,body
+{
+  width: auto;
+  height: 100%;
+}
+h1
+{
+  text-align: center;
+  font-size: 50px;
+}
+
+.Principal
+{
+
+  border :2px black solid;
+  min-width:80%;
+  max-width: 80%;
+  max-height:65%;
+  min-height:65%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: white;
+}
+h3
+{
+  font-size:50px;
+  text-align : center;
+}
+table
+{
+  width:100%;
+  border-collapse:collapse;
+}
+tbody
+{
+  background-color: #8d9e92;
+  color:white;
+}
+tr
+{
+  transition:.5s;
+}
+tr:hover
+{
+  border-radius:5px;
+  box-shadow:5px 5px 10px 5px #427867;
+
+}
+td
+{
+  text-align : center;
+}
+.Cover_album
+{
+  width:50px;
+  height:50px;
+}
+.Container
+{
+  /*border:2px red solid;*/
+  display:flex;
+  overflow:auto;
+  /*overflow-y:scroll;*/
+  max-width:98%;
+  min-width:75%;
+  max-height:450px;
+  margin:auto;
+  border-radius:10px;
+}
+.Container::-webkit-scrollbar
+{
+  background-color:#bccfc1;
+  border-radius:20px;
+}
+.Container::-webkit-scrollbar-button
+{
+  display:none;
+}
+.Container::-webkit-scrollbar-thumb
+{
+  background-color:#7d9684;
+  height:2px;
+  width:2px;
+  border-radius:50px;
+}
+.Left
+{
+  margin:auto;
+}
+button
+{
+  font-size: 50px;
+  font-family: 'Spicy rice';
+  border-radius: 10px;
+  background-color: #425B8A;
+  outline: none;
+  border:#425B8A solid;
+}
+button:hover
+{
+  transition: .5s;
+  background-color: #5372ac;
+}
